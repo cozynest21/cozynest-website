@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CozyNest</title>
+  <style>
+    body { font-family: sans-serif; background-color: #fdf7f6; color: #5a4b41; margin: 0; padding: 20px; }
+    h1 { color: #caa7a3; }
+    h2 { color: #8ba89c; }
+    .card { background: #f5f0ed; border-radius: 12px; padding: 10px; margin: 10px 0; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    .section { margin-bottom: 40px; }
+    .grid { display: grid; gap: 10px; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); }
+    .button { background: #caa7a3; color: white; padding: 10px 16px; border-radius: 12px; border: none; cursor: pointer; }
+    a { color: #5a4b41; text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <h1>CozyNest</h1>
+  <p>Your hub for seasonal interior inspiration & shoppable looks.</p>
+
+  <div class="section">
+    <h2>Browse by Season</h2>
+    <div class="grid">
+      <div class="card">Winter</div>
+      <div class="card">Spring</div>
+      <div class="card">Summer</div>
+      <div class="card">Autumn</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Browse by Style</h2>
+    <div class="grid">
+      <div class="card">Modern</div>
+      <div class="card">Boho</div>
+      <div class="card">Scandinavian</div>
+      <div class="card">Minimalist</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Featured Room</h2>
+    <div class="card">
+      <img src="featured-room.jpg" alt="Featured Room" style="width: 100%; max-width: 400px; border-radius: 12px;" />
+      <h3>Cozy Spring Bedroom</h3>
+      <ul>
+        <li>Sage Green Duvet Cover - <a href="#">IKEA</a></li>
+        <li>Beige Throw Pillows - <a href="#">NEXT</a></li>
+        <li>Rattan Side Table - <a href="#">H&M Home</a></li>
+      </ul>
+      <button class="button">View More Details</button>
+    </div>
+  </div>
+</body>
+</html>
